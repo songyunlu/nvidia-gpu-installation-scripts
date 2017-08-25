@@ -1,7 +1,7 @@
 #!/bin/bash
 
-nvidia_driver_version="${nvidia_driver_version:-375.39}"
-nvidia_docker_version="${nvidia_docker_version:-1.0.1}"
+nvidia_driver_version="${NVIDIA_DRIVER_VERSION:-375.39}"
+nvidia_docker_version="${NVIDIA_DOCKER_VERSION:-1.0.1}"
 
 # required before installing nvidia driver
 sudo apt-get update
